@@ -16,7 +16,9 @@ int main()
     strftime(month, 3, "%m", tm_info);
     strftime(year, 5, "%Y", tm_info);
       
-    printf("\n\tToday is %s/%s/%s\n", day, month, year);
+    printf("\n\tToday is  %s/%s/%s\n", day, month, year);
+    printf("\n Good luck\n");
+    printf("May this day be a good day.");
       
     return 0;
 }
